@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: "/Bridge-86-51/",   // ⭐ ADDed THIS LINE
+  base: "./",   // ⭐ THIS fixes GitHub Pages asset paths
 
   plugins: [
     react(),
